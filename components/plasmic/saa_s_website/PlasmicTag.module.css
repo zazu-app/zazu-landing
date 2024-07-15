@@ -1,0 +1,21 @@
+.root {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  transition-property: all, all;
+  transition-duration: 2s, 1s;
+  min-width: 0;
+  -webkit-transition-property: all, all;
+  -webkit-transition-duration: 2s, 1s;
+}
+.root:hover {
+  width: auto;
+  height: auto;
+  color: var(--token-zy6xhYnWF8Y7);
+  text-decoration-line: underline;
+  display: inline-block;
+}

@@ -1,0 +1,98 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+  height: 325px;
+  max-width: 100%;
+  background: var(--token-n_GX-yE00SoS);
+  position: relative;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  min-width: 0;
+  padding: 0px;
+}
+.footerBottom {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0em 15px 25px;
+  border-top: 1px solid #4c526766;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .footerBottom {
+    padding: 0em 15px 2em;
+  }
+}
+.container2 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 1140px;
+  margin-top: 0px;
+  padding: 0px;
+}
+.text {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  text-align: center;
+  color: var(--token-5AXRJHMozJVB);
+  font-size: var(--token-ZahR7SWHuIm-);
+  min-width: 0;
+  margin: 1em 0px 0px;
+}
+.section {
+  display: grid;
+  position: relative;
+  align-content: center;
+  justify-items: center;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  grid-row-gap: 15px;
+  align-self: auto;
+  left: auto;
+  top: auto;
+  z-index: 1;
+  flex-grow: 0;
+  padding-top: 0px;
+  min-width: 0;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+}
+.section > * {
+  grid-column: 4;
+}
+.svg___2JsPe {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: var(--token-jgohepLVeKvh);
+  margin-bottom: 0px;
+  height: 1em;
+}
+.svg__h9Y0V {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: var(--token-jgohepLVeKvh);
+  height: 1em;
+}
