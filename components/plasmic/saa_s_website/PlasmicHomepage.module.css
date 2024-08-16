@@ -43,7 +43,6 @@
 .header2:global(.__wab_instance) {
   position: relative;
   width: 100%;
-  max-width: 1492px;
   flex-shrink: 1;
   margin-left: 0px;
   min-width: 0;

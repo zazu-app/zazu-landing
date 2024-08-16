@@ -5,6 +5,7 @@
   width: 100%;
   position: relative;
   justify-self: flex-start;
+  flex-shrink: 1;
   min-width: 0;
   padding: 16px 32px;
 }
