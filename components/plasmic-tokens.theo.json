@@ -1181,6 +1181,16 @@
       }
     },
     {
+      "name": "Unnamed Style Token 19",
+      "type": "spacing",
+      "value": "1px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "3ANMJmRMrYZuN2eTrhtZhF",
+        "id": "rfIl_J-Wupcs"
+      }
+    },
+    {
       "name": "UnnamedStyleToken",
       "type": "spacing",
       "value": "0.83rem",

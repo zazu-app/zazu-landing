@@ -59,7 +59,10 @@ import {
   useGlobalActions
 } from "@plasmicapp/react-web/lib/host";
 
+import ZazuBtn from "../../ZazuBtn"; // plasmic-import: HP1tGX66zv_r/component
 import Button from "../../Button"; // plasmic-import: 4uc5kP8l8A4m/component
+
+import { useScreenVariants as useScreenVariantsquHCgLsadSrl } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: quHCgLSADSrl/globalVariant
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 
@@ -85,6 +88,8 @@ export const PlasmicHeader2__ArgProps = new Array<ArgPropType>("children");
 
 export type PlasmicHeader2__OverridesType = {
   root?: Flex__<"div">;
+  zazuBtn?: Flex__<typeof ZazuBtn>;
+  freeBox?: Flex__<"div">;
 };
 
 export interface DefaultHeader2Props {
@@ -121,6 +126,10 @@ function PlasmicHeader2__RenderFunc(props: {
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
 
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariantsquHCgLsadSrl()
+  });
+
   return (
     <Stack__
       as={"div"}
@@ -139,119 +148,135 @@ function PlasmicHeader2__RenderFunc(props: {
         sty.root
       )}
     >
-      <Stack__
-        as={PlasmicLink__}
-        hasGap={true}
-        className={classNames(projectcss.all, projectcss.a, sty.link__ypPuC)}
-        component={Link}
-        href={`/features`}
-        platform={"nextjs"}
-      >
-        <IconIcon
-          className={classNames(projectcss.all, sty.svg___4Hq0B)}
-          role={"img"}
-        />
+      <ZazuBtn
+        data-plasmic-name={"zazuBtn"}
+        data-plasmic-override={overrides.zazuBtn}
+        className={classNames("__wab_instance", sty.zazuBtn)}
+      />
 
-        <span
-          className={classNames(
-            projectcss.all,
-            projectcss.span,
-            projectcss.__wab_text,
-            sty.span___5AUxn
-          )}
+      <div
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
+        className={classNames(projectcss.all, sty.freeBox)}
+      >
+        <Stack__
+          as={PlasmicLink__}
+          hasGap={true}
+          className={classNames(projectcss.all, projectcss.a, sty.link__ypPuC)}
+          component={Link}
+          href={`/features`}
+          platform={"nextjs"}
         >
-          {"Funcionalidades"}
-        </span>
-        {false ? (
           <IconIcon
-            className={classNames(projectcss.all, sty.svg__tbu2K)}
+            className={classNames(projectcss.all, sty.svg___4Hq0B)}
             role={"img"}
           />
-        ) : null}
-      </Stack__>
-      <Stack__
-        as={PlasmicLink__}
-        hasGap={true}
-        className={classNames(projectcss.all, projectcss.a, sty.link__rglhe)}
-        component={Link}
-        href={`/pricing`}
-        platform={"nextjs"}
-      >
-        <IconIcon
-          className={classNames(projectcss.all, sty.svg__fntRq)}
-          role={"img"}
-        />
 
-        <span
-          className={classNames(
-            projectcss.all,
-            projectcss.span,
-            projectcss.__wab_text,
-            sty.span__phjX9
-          )}
-        >
-          {"Planes"}
-        </span>
-        <IconIcon
-          className={classNames(projectcss.all, sty.svg___5KIgC)}
-          role={"img"}
-        />
-      </Stack__>
-      <Stack__
-        as={PlasmicLink__}
-        hasGap={true}
-        className={classNames(projectcss.all, projectcss.a, sty.link__kQbsr)}
-        component={Link}
-        href={`/contact`}
-        platform={"nextjs"}
-      >
-        {false ? (
-          <IconIcon
-            className={classNames(projectcss.all, sty.svg__cdwsN)}
-            role={"img"}
-          />
-        ) : null}
-        <span
-          className={classNames(
-            projectcss.all,
-            projectcss.span,
-            projectcss.__wab_text,
-            sty.span__yfFk9
-          )}
-        >
-          {"Contacto"}
-        </span>
-        {false ? (
-          <IconIcon
-            className={classNames(projectcss.all, sty.svg___2SrYf)}
-            role={"img"}
-          />
-        ) : null}
-      </Stack__>
-      {renderPlasmicSlot({
-        defaultContents: (
-          <Button
-            className={classNames("__wab_instance", sty.button__owmGf)}
-            shape={"rounded"}
-            submitsForm={true}
+          <span
+            className={classNames(
+              projectcss.all,
+              projectcss.span,
+              projectcss.__wab_text,
+              sty.span___5AUxn
+            )}
           >
-            {"Get started"}
-          </Button>
-        ),
-        value: args.children
-      })}
+            {"Funcionalidades"}
+          </span>
+          {false ? (
+            <IconIcon
+              className={classNames(projectcss.all, sty.svg__tbu2K)}
+              role={"img"}
+            />
+          ) : null}
+        </Stack__>
+        <Stack__
+          as={PlasmicLink__}
+          hasGap={true}
+          className={classNames(projectcss.all, projectcss.a, sty.link__rglhe)}
+          component={Link}
+          href={`/pricing`}
+          platform={"nextjs"}
+        >
+          <IconIcon
+            className={classNames(projectcss.all, sty.svg__fntRq)}
+            role={"img"}
+          />
+
+          <span
+            className={classNames(
+              projectcss.all,
+              projectcss.span,
+              projectcss.__wab_text,
+              sty.span__phjX9
+            )}
+          >
+            {"Planes"}
+          </span>
+          <IconIcon
+            className={classNames(projectcss.all, sty.svg___5KIgC)}
+            role={"img"}
+          />
+        </Stack__>
+        <Stack__
+          as={PlasmicLink__}
+          hasGap={true}
+          className={classNames(projectcss.all, projectcss.a, sty.link__kQbsr)}
+          component={Link}
+          href={`/contact`}
+          platform={"nextjs"}
+        >
+          {false ? (
+            <IconIcon
+              className={classNames(projectcss.all, sty.svg__cdwsN)}
+              role={"img"}
+            />
+          ) : null}
+          <span
+            className={classNames(
+              projectcss.all,
+              projectcss.span,
+              projectcss.__wab_text,
+              sty.span__yfFk9
+            )}
+          >
+            {"Contacto"}
+          </span>
+          {false ? (
+            <IconIcon
+              className={classNames(projectcss.all, sty.svg___2SrYf)}
+              role={"img"}
+            />
+          ) : null}
+        </Stack__>
+        {renderPlasmicSlot({
+          defaultContents: (
+            <Button
+              className={classNames("__wab_instance", sty.button__owmGf)}
+              shape={"rounded"}
+              submitsForm={true}
+            >
+              {"Get started"}
+            </Button>
+          ),
+          value: args.children
+        })}
+      </div>
     </Stack__>
   ) as React.ReactElement | null;
 }
 
 const PlasmicDescendants = {
-  root: ["root"]
+  root: ["root", "zazuBtn", "freeBox"],
+  zazuBtn: ["zazuBtn"],
+  freeBox: ["freeBox"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   root: "div";
+  zazuBtn: typeof ZazuBtn;
+  freeBox: "div";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -314,6 +339,8 @@ export const PlasmicHeader2 = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    zazuBtn: makeNodeComponent("zazuBtn"),
+    freeBox: makeNodeComponent("freeBox"),
 
     // Metadata about props expected for PlasmicHeader2
     internalVariantProps: PlasmicHeader2__VariantProps,

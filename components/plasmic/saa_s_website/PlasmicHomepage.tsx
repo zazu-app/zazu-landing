@@ -64,7 +64,6 @@ import Button2 from "../../Button2"; // plasmic-import: JkYce_MEgSAA/component
 import Button from "../../Button"; // plasmic-import: 4uc5kP8l8A4m/component
 import CustomButton2 from "../../CustomButton2"; // plasmic-import: 7wO7KzItzftQ/component
 import CustomButtonEmpty from "../../CustomButtonEmpty"; // plasmic-import: LcD7bpdcLV-K/component
-import ZazuBtn from "../../ZazuBtn"; // plasmic-import: HP1tGX66zv_r/component
 import Testimonial from "../../Testimonial"; // plasmic-import: 9o321bBee3h5/component
 import CtaBlock from "../../CtaBlock"; // plasmic-import: jT_BkuGgyhPS/component
 import HeroSection from "../../HeroSection"; // plasmic-import: zInb_6mM-BOd/component
@@ -102,7 +101,6 @@ export type PlasmicHomepage__OverridesType = {
   section?: Flex__<"section">;
   customButton2?: Flex__<typeof CustomButton2>;
   customButtonEmpty?: Flex__<typeof CustomButtonEmpty>;
-  zazuBtn?: Flex__<typeof ZazuBtn>;
   features?: Flex__<"section">;
   container4?: Flex__<"div">;
   outerRow2?: Flex__<"div">;
@@ -184,341 +182,328 @@ function PlasmicHomepage__RenderFunc(props: {
             sty.root
           )}
         >
-          <div className={classNames(projectcss.all, sty.freeBox__x2Brk)}>
-            <div className={classNames(projectcss.all, sty.freeBox__bmlOa)}>
-              <Header2
-                data-plasmic-name={"header2"}
-                data-plasmic-override={overrides.header2}
-                className={classNames("__wab_instance", sty.header2)}
+          <div className={classNames(projectcss.all, sty.freeBox__bmlOa)}>
+            <Header2
+              data-plasmic-name={"header2"}
+              data-plasmic-override={overrides.header2}
+              className={classNames("__wab_instance", sty.header2)}
+            >
+              {renderPlasmicSlot({
+                defaultContents: (
+                  <React.Fragment>
+                    <Button2
+                      className={classNames(
+                        "__wab_instance",
+                        sty.button2__zRpSf
+                      )}
+                    >
+                      {"Comienza ahora !"}
+                    </Button2>
+                    <Button
+                      className={classNames("__wab_instance", sty.button__jbx9)}
+                      shape={"rounded"}
+                      submitsForm={true}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__bqI4P
+                        )}
+                      >
+                        {"Get started"}
+                      </div>
+                    </Button>
+                  </React.Fragment>
+                ),
+                value: args.slot
+              })}
+            </Header2>
+            <div className={classNames(projectcss.all, sty.freeBox__d2Vq)}>
+              <Stack__
+                as={"div"}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.freeBox__ecbZi)}
               >
-                {renderPlasmicSlot({
-                  defaultContents: (
-                    <React.Fragment>
-                      <Button2
-                        className={classNames(
-                          "__wab_instance",
-                          sty.button2__zRpSf
-                        )}
-                      >
-                        {"Comienza ahora !"}
-                      </Button2>
-                      <Button
-                        className={classNames(
-                          "__wab_instance",
-                          sty.button__jbx9
-                        )}
-                        shape={"rounded"}
-                        submitsForm={true}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__bqI4P
-                          )}
-                        >
-                          {"Get started"}
-                        </div>
-                      </Button>
-                    </React.Fragment>
-                  ),
-                  value: args.slot
-                })}
-              </Header2>
-              <div className={classNames(projectcss.all, sty.freeBox__d2Vq)}>
                 <Stack__
                   as={"div"}
                   hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__ecbZi)}
+                  className={classNames(projectcss.all, sty.freeBox__kZAj1)}
                 >
                   <Stack__
                     as={"div"}
                     hasGap={true}
-                    className={classNames(projectcss.all, sty.freeBox__kZAj1)}
+                    className={classNames(projectcss.all, sty.freeBox__vxCo1)}
                   >
+                    <h1
+                      data-plasmic-name={"h1"}
+                      data-plasmic-override={overrides.h1}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h1,
+                        projectcss.__wab_text,
+                        sty.h1
+                      )}
+                    >
+                      {hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? "Organiza tus reservas con ZAZU\n"
+                        : "Organiza tus reservas con ZAZU\n"}
+                    </h1>
                     <Stack__
                       as={"div"}
                       hasGap={true}
-                      className={classNames(projectcss.all, sty.freeBox__vxCo1)}
+                      className={classNames(projectcss.all, sty.freeBox__rlS8)}
                     >
-                      <h1
-                        data-plasmic-name={"h1"}
-                        data-plasmic-override={overrides.h1}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.h1,
-                          projectcss.__wab_text,
-                          sty.h1
-                        )}
-                      >
-                        {hasVariant(globalVariants, "screen", "mobileOnly")
-                          ? "Organiza tus reservas con ZAZU\n"
-                          : "Organiza tus reservas con ZAZU\n"}
-                      </h1>
                       <Stack__
                         as={"div"}
                         hasGap={true}
                         className={classNames(
                           projectcss.all,
-                          sty.freeBox__rlS8
+                          sty.freeBox__gsjLp
                         )}
                       >
-                        <Stack__
-                          as={"div"}
-                          hasGap={true}
+                        <div
                           className={classNames(
                             projectcss.all,
-                            sty.freeBox__gsjLp
+                            sty.freeBox__pc6Kd
                           )}
                         >
+                          <Icon14Icon
+                            className={classNames(
+                              projectcss.all,
+                              sty.svg__rmSx
+                            )}
+                            role={"img"}
+                          />
+                        </div>
+                        {false ? (
                           <div
                             className={classNames(
                               projectcss.all,
-                              sty.freeBox__pc6Kd
+                              sty.freeBox___8Jd0D
                             )}
                           >
                             <Icon14Icon
                               className={classNames(
                                 projectcss.all,
-                                sty.svg__rmSx
+                                sty.svg__vlTdl
                               )}
                               role={"img"}
                             />
                           </div>
+                        ) : null}
+                        <Stack__
+                          as={"div"}
+                          hasGap={true}
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__uqY7
+                          )}
+                        >
                           {false ? (
                             <div
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox___8Jd0D
+                                projectcss.__wab_text,
+                                sty.text__cUwsf
                               )}
                             >
-                              <Icon14Icon
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.svg__vlTdl
-                                )}
-                                role={"img"}
-                              />
+                              {"Label"}
                             </div>
                           ) : null}
-                          <Stack__
-                            as={"div"}
-                            hasGap={true}
+                          <div
                             className={classNames(
                               projectcss.all,
-                              sty.freeBox__uqY7
+                              projectcss.__wab_text,
+                              sty.text__oIhrA
                             )}
                           >
-                            {false ? (
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__cUwsf
-                                )}
-                              >
-                                {"Label"}
-                              </div>
-                            ) : null}
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text__oIhrA
-                              )}
-                            >
-                              {"Ofrece un canal de reservas 24/7"}
-                            </div>
-                          </Stack__>
+                            {"Ofrece un canal de reservas 24/7"}
+                          </div>
                         </Stack__>
-                        <Stack__
-                          as={"div"}
-                          hasGap={true}
+                      </Stack__>
+                      <Stack__
+                        as={"div"}
+                        hasGap={true}
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__bikIs
+                        )}
+                      >
+                        <div
                           className={classNames(
                             projectcss.all,
-                            sty.freeBox__bikIs
+                            sty.freeBox__yxUjx
                           )}
                         >
+                          <Icon14Icon
+                            className={classNames(
+                              projectcss.all,
+                              sty.svg__lEjRu
+                            )}
+                            role={"img"}
+                          />
+                        </div>
+                        {false ? (
                           <div
                             className={classNames(
                               projectcss.all,
-                              sty.freeBox__yxUjx
+                              sty.freeBox__hO1S
                             )}
                           >
                             <Icon14Icon
                               className={classNames(
                                 projectcss.all,
-                                sty.svg__lEjRu
+                                sty.svg__yRyJq
                               )}
                               role={"img"}
                             />
                           </div>
+                        ) : null}
+                        <Stack__
+                          as={"div"}
+                          hasGap={true}
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__lAmQ5
+                          )}
+                        >
                           {false ? (
                             <div
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox__hO1S
+                                projectcss.__wab_text,
+                                sty.text__ikt8H
                               )}
                             >
-                              <Icon14Icon
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.svg__yRyJq
-                                )}
-                                role={"img"}
-                              />
+                              {"Label"}
                             </div>
                           ) : null}
-                          <Stack__
-                            as={"div"}
-                            hasGap={true}
+                          <div
                             className={classNames(
                               projectcss.all,
-                              sty.freeBox__lAmQ5
+                              projectcss.__wab_text,
+                              sty.text__c1VM6
                             )}
                           >
-                            {false ? (
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__ikt8H
-                                )}
-                              >
-                                {"Label"}
-                              </div>
-                            ) : null}
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text__c1VM6
-                              )}
-                            >
-                              {"Simplifica la gesti\u00f3n de tu negocio"}
-                            </div>
-                          </Stack__>
+                            {"Simplifica la gesti\u00f3n de tu negocio"}
+                          </div>
                         </Stack__>
-                        <Stack__
-                          as={"div"}
-                          hasGap={true}
+                      </Stack__>
+                      <Stack__
+                        as={"div"}
+                        hasGap={true}
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__y0Jw
+                        )}
+                      >
+                        <div
                           className={classNames(
                             projectcss.all,
-                            sty.freeBox__y0Jw
+                            sty.freeBox__lLbv3
                           )}
                         >
+                          <Icon14Icon
+                            className={classNames(
+                              projectcss.all,
+                              sty.svg___0FyJ7
+                            )}
+                            role={"img"}
+                          />
+                        </div>
+                        {false ? (
                           <div
                             className={classNames(
                               projectcss.all,
-                              sty.freeBox__lLbv3
+                              sty.freeBox__jd4Me
                             )}
                           >
                             <Icon14Icon
                               className={classNames(
                                 projectcss.all,
-                                sty.svg___0FyJ7
+                                sty.svg___9LqYh
                               )}
                               role={"img"}
                             />
                           </div>
+                        ) : null}
+                        <Stack__
+                          as={"div"}
+                          hasGap={true}
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__z6F75
+                          )}
+                        >
                           {false ? (
                             <div
                               className={classNames(
                                 projectcss.all,
-                                sty.freeBox__jd4Me
+                                projectcss.__wab_text,
+                                sty.text__paLeK
                               )}
                             >
-                              <Icon14Icon
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.svg___9LqYh
-                                )}
-                                role={"img"}
-                              />
+                              {"Label"}
                             </div>
                           ) : null}
-                          <Stack__
-                            as={"div"}
-                            hasGap={true}
+                          <div
                             className={classNames(
                               projectcss.all,
-                              sty.freeBox__z6F75
+                              projectcss.__wab_text,
+                              sty.text___3Qq2J
                             )}
                           >
-                            {false ? (
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__paLeK
-                                )}
-                              >
-                                {"Label"}
-                              </div>
-                            ) : null}
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text___3Qq2J
-                              )}
-                            >
-                              {"Lleva un facil seguimiento de las reservas"}
-                            </div>
-                          </Stack__>
+                            {"Lleva un facil seguimiento de las reservas"}
+                          </div>
                         </Stack__>
                       </Stack__>
                     </Stack__>
-                    <Stack__
-                      as={"section"}
-                      data-plasmic-name={"section"}
-                      data-plasmic-override={overrides.section}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.section)}
-                    >
-                      <CustomButton2
-                        data-plasmic-name={"customButton2"}
-                        data-plasmic-override={overrides.customButton2}
-                        className={classNames(
-                          "__wab_instance",
-                          sty.customButton2
-                        )}
-                      />
-
-                      <CustomButtonEmpty
-                        data-plasmic-name={"customButtonEmpty"}
-                        data-plasmic-override={overrides.customButtonEmpty}
-                        className={classNames(
-                          "__wab_instance",
-                          sty.customButtonEmpty
-                        )}
-                      />
-                    </Stack__>
                   </Stack__>
-                  <PlasmicImg__
-                    alt={""}
-                    className={classNames(sty.img__xyDxA)}
-                    displayHeight={"auto"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"100%"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"632px"}
-                    loading={"lazy"}
-                    src={{
-                      src: "/plasmic/saa_s_website/images/frame66Png.png",
-                      fullWidth: 1904,
-                      fullHeight: 960,
-                      aspectRatio: undefined
-                    }}
-                  />
+                  <Stack__
+                    as={"section"}
+                    data-plasmic-name={"section"}
+                    data-plasmic-override={overrides.section}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.section)}
+                  >
+                    <CustomButton2
+                      data-plasmic-name={"customButton2"}
+                      data-plasmic-override={overrides.customButton2}
+                      className={classNames(
+                        "__wab_instance",
+                        sty.customButton2
+                      )}
+                    />
+
+                    <CustomButtonEmpty
+                      data-plasmic-name={"customButtonEmpty"}
+                      data-plasmic-override={overrides.customButtonEmpty}
+                      className={classNames(
+                        "__wab_instance",
+                        sty.customButtonEmpty
+                      )}
+                    />
+                  </Stack__>
                 </Stack__>
-              </div>
-              <ZazuBtn
-                data-plasmic-name={"zazuBtn"}
-                data-plasmic-override={overrides.zazuBtn}
-                className={classNames("__wab_instance", sty.zazuBtn)}
-              />
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__xyDxA)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"632px"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/saa_s_website/images/frame66Png.png",
+                    fullWidth: 1904,
+                    fullHeight: 960,
+                    aspectRatio: undefined
+                  }}
+                />
+              </Stack__>
             </div>
           </div>
           <section
@@ -1637,7 +1622,6 @@ const PlasmicDescendants = {
     "section",
     "customButton2",
     "customButtonEmpty",
-    "zazuBtn",
     "features",
     "container4",
     "outerRow2",
@@ -1660,7 +1644,6 @@ const PlasmicDescendants = {
   section: ["section", "customButton2", "customButtonEmpty"],
   customButton2: ["customButton2"],
   customButtonEmpty: ["customButtonEmpty"],
-  zazuBtn: ["zazuBtn"],
   features: [
     "features",
     "container4",
@@ -1699,7 +1682,6 @@ type NodeDefaultElementType = {
   section: "section";
   customButton2: typeof CustomButton2;
   customButtonEmpty: typeof CustomButtonEmpty;
-  zazuBtn: typeof ZazuBtn;
   features: "section";
   container4: "div";
   outerRow2: "div";
@@ -1783,7 +1765,6 @@ export const PlasmicHomepage = Object.assign(
     section: makeNodeComponent("section"),
     customButton2: makeNodeComponent("customButton2"),
     customButtonEmpty: makeNodeComponent("customButtonEmpty"),
-    zazuBtn: makeNodeComponent("zazuBtn"),
     features: makeNodeComponent("features"),
     container4: makeNodeComponent("container4"),
     outerRow2: makeNodeComponent("outerRow2"),

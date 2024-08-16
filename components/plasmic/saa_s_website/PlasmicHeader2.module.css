@@ -2,15 +2,17 @@
   background: #329bc661;
   display: flex;
   flex-direction: row;
-  padding-top: 16px;
-  padding-right: 16px;
-  padding-bottom: 16px;
+  width: 100%;
   position: relative;
+  justify-self: flex-start;
+  min-width: 0;
+  padding: 16px 32px;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  min-width: 0;
   margin-left: calc(0px - 16px);
   width: calc(100% + 16px);
 }
@@ -22,8 +24,31 @@
 }
 @media (min-width: 0px) and (max-width: 767px) {
   .root {
-    padding: 6px 32px 8px;
+    padding: 6px 14px 8px;
   }
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .root > :global(.__wab_flex-container) {
+    justify-content: center;
+    align-items: center;
+  }
+}
+.zazuBtn:global(.__wab_instance) {
+  max-width: 100%;
+  margin-left: calc(0px + 16px) !important;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .zazuBtn:global(.__wab_instance) {
+    margin-left: calc(0px + 16px) !important;
+    display: none;
+  }
+}
+.freeBox {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .link__ypPuC {
   position: relative;
@@ -33,6 +58,8 @@
   display: flex;
   flex-direction: row;
   cursor: pointer;
+  left: auto;
+  top: auto;
   -webkit-transition-property: all;
   -webkit-transition-timing-function: ease-out;
   -webkit-transition-duration: 0.5s;
@@ -88,6 +115,8 @@
   display: flex;
   flex-direction: row;
   cursor: pointer;
+  left: auto;
+  top: auto;
   -webkit-transition-property: all;
   -webkit-transition-timing-function: ease-out;
   -webkit-transition-duration: 0.5s;
@@ -146,6 +175,8 @@
   display: flex;
   flex-direction: row;
   cursor: pointer;
+  left: auto;
+  top: auto;
   -webkit-transition-property: all;
   -webkit-transition-timing-function: ease-out;
   -webkit-transition-duration: 0.5s;
@@ -195,6 +226,8 @@
 .button__owmGf:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
+  left: auto;
+  top: auto;
 }
 .svg__rJyRs {
   position: relative;
