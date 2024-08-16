@@ -589,54 +589,46 @@ function PlasmicSelect__RenderFunc(props: {
             role={"img"}
           />
         </button>
-        {(hasVariant($state, "isOpen", "isOpen") ? true : false) ? (
-          <Select__Overlay
-            data-plasmic-name={"overlay"}
-            data-plasmic-override={overrides.overlay}
-            className={classNames("__wab_instance", sty.overlay, {
-              [sty.overlayisOpen]: hasVariant($state, "isOpen", "isOpen")
+        <Select__Overlay
+          data-plasmic-name={"overlay"}
+          data-plasmic-override={overrides.overlay}
+          className={classNames("__wab_instance", sty.overlay, {
+            [sty.overlayisOpen]: hasVariant($state, "isOpen", "isOpen")
+          })}
+          relativePlacement={"bottom"}
+        >
+          <div
+            data-plasmic-name={"optionsContainer"}
+            data-plasmic-override={overrides.optionsContainer}
+            className={classNames(projectcss.all, sty.optionsContainer, {
+              [sty.optionsContainerisOpen]: hasVariant(
+                $state,
+                "isOpen",
+                "isOpen"
+              )
             })}
-            relativePlacement={"bottom"}
           >
-            <div
-              data-plasmic-name={"optionsContainer"}
-              data-plasmic-override={overrides.optionsContainer}
-              className={classNames(projectcss.all, sty.optionsContainer, {
-                [sty.optionsContainerisOpen]: hasVariant(
-                  $state,
-                  "isOpen",
-                  "isOpen"
-                )
-              })}
-            >
-              {renderPlasmicSlot({
-                defaultContents: (
-                  <React.Fragment>
-                    <Select__Option
-                      className={classNames(
-                        "__wab_instance",
-                        sty.option__dbkoR
-                      )}
-                      value={"value1"}
-                    >
-                      {"Option 1"}
-                    </Select__Option>
-                    <Select__Option
-                      className={classNames(
-                        "__wab_instance",
-                        sty.option__t6Xxu
-                      )}
-                      value={"value2"}
-                    >
-                      {"Option 2"}
-                    </Select__Option>
-                  </React.Fragment>
-                ),
-                value: args.children
-              })}
-            </div>
-          </Select__Overlay>
-        ) : null}
+            {renderPlasmicSlot({
+              defaultContents: (
+                <React.Fragment>
+                  <Select__Option
+                    className={classNames("__wab_instance", sty.option__dbkoR)}
+                    value={"value1"}
+                  >
+                    {"Option 1"}
+                  </Select__Option>
+                  <Select__Option
+                    className={classNames("__wab_instance", sty.option__t6Xxu)}
+                    value={"value2"}
+                  >
+                    {"Option 2"}
+                  </Select__Option>
+                </React.Fragment>
+              ),
+              value: args.children
+            })}
+          </div>
+        </Select__Overlay>
       </div>
     </PlasmicSelectContext.Provider>
   ) as React.ReactElement | null;

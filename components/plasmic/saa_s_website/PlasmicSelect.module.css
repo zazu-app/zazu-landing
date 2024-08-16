@@ -391,6 +391,7 @@
   left: 0px;
   top: 100%;
   z-index: 1000;
+  display: none;
 }
 .optionsContainer {
   display: flex;

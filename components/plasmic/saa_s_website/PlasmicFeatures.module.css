@@ -787,6 +787,8 @@
   position: relative;
   margin-top: calc(0px + 0px) !important;
   margin-bottom: 0px;
+  height: 584px;
+  flex-shrink: 0;
 }
 @media (min-width: 0px) and (max-width: 767px) {
   .heroSection:global(.__wab_instance) {

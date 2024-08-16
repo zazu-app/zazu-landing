@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -47,7 +47,8 @@
           "componentImportPath": "@plasmicpkgs/react-scroll-parallax"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "ohDidvG9XsCeFumugENU3J",
@@ -447,12 +448,13 @@
           "componentImportPath": "@plasmicpkgs/antd5/skinny/registerBreadcrumb"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "3ANMJmRMrYZuN2eTrhtZhF",
       "projectApiToken": "O57Za1YRo25TAqLPPHQHOZ7vP2bMJ4rVvZmwbZ3Ii8WFvwbGqrPIkKLwa8sjAr86CRzEM9WuZNAT1OLXpA",
-      "projectName": "SaaS Website",
+      "projectName": "zazu landing Website",
       "version": "latest",
       "cssFilePath": "plasmic/saa_s_website/plasmic.module.css",
       "components": [
@@ -862,6 +864,20 @@
           "cssFilePath": "plasmic/saa_s_website/PlasmicZazuBtn.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "-N9DC8Z3-Sfb",
+          "name": "Test",
+          "type": "managed",
+          "projectId": "3ANMJmRMrYZuN2eTrhtZhF",
+          "renderModuleFilePath": "plasmic/zazu_landing_website/PlasmicTest.tsx",
+          "importSpec": {
+            "modulePath": "../pages/new-page.tsx"
+          },
+          "cssFilePath": "plasmic/zazu_landing_website/PlasmicTest.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/new-page"
         }
       ],
       "icons": [
@@ -1442,6 +1458,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.330",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.330/dist/plasmic.schema.json"
+  "cliVersion": "0.1.331",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.331/dist/plasmic.schema.json"
 }
