@@ -8,23 +8,30 @@ import * as React from "react";
 import { hasVariant, ensureGlobalVariants } from "@plasmicapp/react-web";
 import { AntdConfigProvider } from "@plasmicpkgs/antd5/skinny/registerConfigProvider";
 import { ParallaxProviderWrapper } from "@plasmicpkgs/react-scroll-parallax";
+import { EmbedCss } from "@plasmicpkgs/plasmic-embed-css";
 
 export interface GlobalContextsProviderProps {
   children?: React.ReactElement;
   antdConfigProviderProps?: Partial<
     Omit<React.ComponentProps<typeof AntdConfigProvider>, "children">
   >;
-
   parallaxProviderWrapperProps?: Partial<
     Omit<React.ComponentProps<typeof ParallaxProviderWrapper>, "children">
+  >;
+  embedCssProps?: Partial<
+    Omit<React.ComponentProps<typeof EmbedCss>, "children">
   >;
 }
 
 export default function GlobalContextsProvider(
   props: GlobalContextsProviderProps
 ) {
-  const { children, antdConfigProviderProps, parallaxProviderWrapperProps } =
-    props;
+  const {
+    children,
+    antdConfigProviderProps,
+    parallaxProviderWrapperProps,
+    embedCssProps
+  } = props;
 
   return (
     <AntdConfigProvider
@@ -128,7 +135,16 @@ export default function GlobalContextsProvider(
             : undefined
         }
       >
-        {children}
+        <EmbedCss
+          {...embedCssProps}
+          css={
+            embedCssProps && "css" in embedCssProps
+              ? embedCssProps.css!
+              : "textareaForm{\r\n  resize: none;\r\n}"
+          }
+        >
+          {children}
+        </EmbedCss>
       </ParallaxProviderWrapper>
     </AntdConfigProvider>
   );

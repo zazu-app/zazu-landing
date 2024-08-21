@@ -162,7 +162,7 @@ function PlasmicHeader2__RenderFunc(props: {
           hasGap={true}
           className={classNames(projectcss.all, projectcss.a, sty.link__ypPuC)}
           component={Link}
-          href={`/features`}
+          href={"#features"}
           platform={"nextjs"}
         >
           <IconIcon
@@ -192,7 +192,7 @@ function PlasmicHeader2__RenderFunc(props: {
           hasGap={true}
           className={classNames(projectcss.all, projectcss.a, sty.link__rglhe)}
           component={Link}
-          href={`/pricing`}
+          href={"#pricing"}
           platform={"nextjs"}
         >
           <IconIcon
@@ -220,7 +220,7 @@ function PlasmicHeader2__RenderFunc(props: {
           hasGap={true}
           className={classNames(projectcss.all, projectcss.a, sty.link__kQbsr)}
           component={Link}
-          href={`/contact`}
+          href={"#contact"}
           platform={"nextjs"}
         >
           {false ? (
