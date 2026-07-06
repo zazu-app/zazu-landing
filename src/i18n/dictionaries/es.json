@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "title": "Zazu · El sistema operativo de tu escuela náutica",
+    "description": "Reservas online, cobros y gestión de alumnos para escuelas de surf, vela, kite y buceo en España. Hecho para el agua. Pide tu demo.",
+    "ogAlt": "Escuela de deportes acuáticos gestionada con Zazu"
+  },
+  "nav": {
+    "what": "Qué hace",
+    "disciplines": "Disciplinas",
+    "pricing": "Precios",
+    "faq": "Preguntas",
+    "cta": "Pedir demo",
+    "menu": "Menú",
+    "close": "Cerrar"
+  },
+  "hero": {
+    "titleA": "Deja de gestionar tu escuela",
+    "titleHighlight": "por WhatsApp",
+    "titleB": ".",
+    "sub": "Zazu reúne reservas online, cobros, alumnos y campus en un solo sitio. Hecho para escuelas de surf, vela, kite y buceo. Te lo dejamos listo antes de tu temporada.",
+    "ctaPrimary": "Pedir demo gratis",
+    "ctaSecondary": "Ver cómo funciona",
+    "trust": ["Cobros con Redsys", "Onboarding hecho-para-ti", "Sin permanencia"],
+    "imageAlt": "Surfista cruzando la duna al atardecer hacia las olas, tabla bajo el brazo"
+  },
+  "problem": {
+    "title": "El verano no debería ser un caos.",
+    "lead": "Si algo de esto te suena, no es que lo hagas mal. Es que lo estás haciendo a mano.",
+    "items": [
+      "El móvil echando humo en julio con reservas por WhatsApp.",
+      "Señas que no cobras a tiempo y plazas que se pierden.",
+      "Un Excel distinto por cada monitor y nadie sabe la ocupación real.",
+      "Papeleo de menores: DNI, seguros y autorizaciones sin control."
+    ]
+  },
+  "value": {
+    "lead": "No es un software de reservas más.",
+    "title": "Reservar es solo el principio.",
+    "body": "La mayoría de los programas te ayudan a reservar y poco más. Zazu opera toda tu escuela de punta a punta —cobros, alumnos, campus, material y el día a día— en un solo sistema, no en cinco apps sueltas, un Excel y WhatsApp.",
+    "cycle": ["Descubrir", "Reservar", "Cobrar", "Operar", "Fidelizar"],
+    "cycleCaption": "El ciclo completo de tu escuela, en un solo sitio."
+  },
+  "features": {
+    "title": "Todo lo que pasa después de la reserva, resuelto.",
+    "featured": {
+      "title": "La temporada, bajo control",
+      "body": "Calendario operativo, asistencia y material asignable desde el móvil. Cada monitor llega a la playa sabiendo a quién tiene, cuándo y con qué equipo. Menores, tutores, datos médicos y autorizaciones, siempre en regla.",
+      "imageAlt": "Neoprenos y trajes de agua colgados en el pañol de madera de una escuela náutica, con un salvavidas al fondo"
+    },
+    "items": [
+      {
+        "title": "No pierdas reservas",
+        "body": "Reserva y pago online 24/7, con seña automática. Tus clientes reservan aunque estés en el agua."
+      },
+      {
+        "title": "Cobra con orden",
+        "body": "Pagos online y manuales, señas, saldo pendiente y conciliación. Exporta cuando quieras."
+      },
+      {
+        "title": "Campus y cursos, fáciles",
+        "body": "Grupos por nivel y edad, rangos de fechas e inscripciones masivas sin líos."
+      },
+      {
+        "title": "Alumnos y menores en regla",
+        "body": "Tutores, datos médicos, autorizaciones y documentación (DNI, seguros, licencias) en un sitio."
+      },
+      {
+        "title": "Vende mejor cada año",
+        "body": "Recordatorios, encuestas de satisfacción y datos de tu escuela para decidir con cabeza."
+      }
+    ]
+  },
+  "disciplines": {
+    "title": "Pensado para lo tuyo.",
+    "intro": "Zazu nació en el mundo náutico. Flujos reales para cada disciplina, no un software genérico adaptado.",
+    "imageAlt": "Hilera de tablas de surf y windsurf de colores apoyadas contra una caseta de madera con palmeras",
+    "items": [
+      { "name": "Surf & surfcamps", "body": "Clases, bonos, cursos y camps. Menores y turistas, sin desbordarte." },
+      { "name": "Vela & campus", "body": "Cursos por niveles y campus infantil de verano con todo en regla." },
+      { "name": "Kite & wing", "body": "Clases privadas, reprogramaciones por viento y material caro asignable." },
+      { "name": "Buceo", "body": "Bautizos, cursos certificados y salidas con documentación médica al día." }
+    ]
+  },
+  "how": {
+    "title": "En marcha antes de tu temporada.",
+    "steps": [
+      { "title": "Te lo dejamos montado", "body": "Configuramos tus servicios, agenda y TPV, e importamos tus alumnos. Empiezas usándolo, no montándolo." },
+      { "title": "Tus clientes reservan y pagan solos", "body": "Reserva y seña online 24/7. Tú dejas de perseguir a nadie por WhatsApp." },
+      { "title": "Operas la temporada bajo control", "body": "Grupos, asistencia, material y cobros, todo en una pantalla. Verano tranquilo." }
+    ]
+  },
+  "proof": {
+    "title": "Del Excel al agua tranquila.",
+    "imageAlt": "Persona abrazando su tabla de surf en la orilla, luz cálida de atardecer",
+    "quotes": [
+      { "text": "Pasamos del Excel y el WhatsApp a tenerlo todo en un sitio. El primer verano con Zazu cobramos casi todas las señas online y dejamos de perder plazas.", "who": "Nombre Apellido", "role": "Escuela de surf (ejemplo)" },
+      { "text": "El campus con menores era una pesadilla de papeles. Ahora cada alumno tiene su documentación, su grupo y su asistencia. Impagable.", "who": "Nombre Apellido", "role": "Club náutico (ejemplo)" }
+    ],
+    "note": "Testimonios de ejemplo — se sustituirán por casos reales antes de publicar.",
+    "resultLine": "Menos horas al teléfono. Menos plazas perdidas. Más tiempo en el agua."
+  },
+  "pricing": {
+    "title": "Simple y sin sorpresas.",
+    "intro": "Precios orientativos. Todos los planes incluyen reservas online, cobros y soporte. Onboarding hecho-para-ti disponible.",
+    "perMonth": "/mes",
+    "annualNote": "facturación anual",
+    "plans": [
+      {
+        "name": "Escuela",
+        "price": "59 €",
+        "forWho": "Escuela pequeña, una sede, temporada.",
+        "features": ["Reservas online + pago (seña o total)", "Agenda, ventas y pagos", "Alumnos, menores y documentación", "3 monitores incluidos"],
+        "cta": "Empezar"
+      },
+      {
+        "name": "Pro",
+        "price": "119 €",
+        "forWho": "Escuela consolidada con campus y equipo.",
+        "features": ["Todo lo de Escuela, y además:", "Campus y cursos por niveles", "Asistencia y material asignable", "Recordatorios, NPS y dashboards", "10 monitores incluidos"],
+        "cta": "Pedir demo",
+        "featured": true,
+        "badge": "Más elegido"
+      },
+      {
+        "name": "Club",
+        "price": "Desde 249 €",
+        "forWho": "Clubes y grupos con varias sedes o disciplinas.",
+        "features": ["Todo lo de Pro, y además:", "Multi-sede y multi-disciplina", "Chat WhatsApp / Telegram", "Usuarios ilimitados", "Gestor dedicado"],
+        "cta": "Hablar con ventas"
+      }
+    ],
+    "footnote": "Comisión reducida sobre pagos online. Condiciones especiales pre-temporada."
+  },
+  "faq": {
+    "title": "Lo que suelen preguntarnos.",
+    "items": [
+      { "q": "No tengo tiempo de aprender otro programa.", "a": "Por eso el onboarding es hecho-para-ti: te configuramos servicios, agenda y TPV, e importamos tus alumnos. Empiezas usándolo, no montándolo." },
+      { "q": "Ya lo llevo con WhatsApp y Excel, me apaño.", "a": "Te apañas en temporada baja. En julio pierdes plazas y horas. Calcula lo que vale una plaza perdida y una hora tuya: Zazu se paga solo." },
+      { "q": "¿Es caro para lo estacional que soy?", "a": "El plan de entrada cuesta menos que una o dos plazas al mes, y te ayuda a vender más y a cobrar lo que hoy se te escapa. Además tenemos condiciones pre-temporada." },
+      { "q": "No tengo TPV ni sé de pagos online.", "a": "Te acompañamos en el alta del TPV Redsys, o usamos una pasarela alternativa. Sin dolores de cabeza." },
+      { "q": "Ya uso otro software de reservas.", "a": "Genial que estés digitalizado. Zazu va más allá de reservar: campus, menores, documentación, material y asistencia. Y te migramos sin coste." },
+      { "q": "¿Y si me quiero ir?", "a": "Tus datos son tuyos y te los exportamos. Sin permanencia forzada más allá del anual si eliges pago mensual." }
+    ]
+  },
+  "cta": {
+    "title": "Prepara la mejor temporada de tu vida.",
+    "body": "Te lo dejamos listo antes de que empiece. Cuéntanos cómo es tu escuela y te enseñamos Zazu con tu caso real.",
+    "checklist": ["Demo con tus servicios y tu campus reales", "Onboarding hecho-para-ti incluido", "Te respondemos en menos de 24 h"],
+    "imageAlt": "Persona abrazando su tabla de surf en la orilla, luz cálida de atardecer",
+    "form": {
+      "name": "Nombre",
+      "namePh": "Tu nombre",
+      "email": "Email",
+      "emailPh": "tu@escuela.com",
+      "phone": "Teléfono / WhatsApp",
+      "phonePh": "+34 ...",
+      "school": "Nombre de la escuela",
+      "schoolPh": "Escuela de ...",
+      "discipline": "Disciplina",
+      "disciplineOptions": ["Surf", "Vela", "Kite / Wing", "Buceo", "SUP / Kayak", "Varias"],
+      "students": "Alumnos por temporada",
+      "studentsOptions": ["Menos de 100", "100 – 300", "300 – 600", "Más de 600"],
+      "message": "Mensaje (opcional)",
+      "messagePh": "Cuéntanos tu mayor dolor de gestión",
+      "submit": "Pedir demo gratis",
+      "success": "¡Gracias! Te escribimos en menos de 24 h.",
+      "privacy": "Al enviar aceptas nuestra política de privacidad. Sin spam, solo tu demo."
+    }
+  },
+  "footer": {
+    "tagline": "El sistema operativo de tu escuela náutica. Reservas, cobros y alumnos, en un solo sitio.",
+    "product": { "title": "Producto", "links": ["Qué hace", "Precios", "Preguntas"] },
+    "legal": { "title": "Legal", "links": ["Privacidad", "Términos", "Cookies"] },
+    "contact": { "title": "Contacto", "email": "hola@zazu.com.es", "demo": "Pedir demo" },
+    "rights": "© 2026 Zazu · España. Hecho para el agua.",
+    "cookieSettings": "Configuración de cookies"
+  },
+  "lang": { "label": "Idioma", "es": "ES", "en": "EN" },
+  "consent": {
+    "title": "Cookies en Zazu",
+    "description": "Usamos analítica sin cookies siempre, y cookies de análisis (Google Analytics) solo si las aceptas. Puedes aceptarlas, rechazarlas o configurarlas.",
+    "policyLink": "Política de cookies",
+    "accept": "Aceptar",
+    "reject": "Rechazar",
+    "configure": "Configurar",
+    "save": "Guardar preferencias",
+    "necessary": { "name": "Técnicas (imprescindibles)", "desc": "Necesarias para que el sitio funcione. Siempre activas." },
+    "analytics": { "name": "Análisis", "desc": "Google Analytics para medir el uso del sitio." },
+    "marketing": { "name": "Marketing", "desc": "Para publicidad y retargeting. Hoy no se usan." }
+  }
+}

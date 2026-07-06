@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "title": "Zazu · The operating system for your water sports school",
+    "description": "Online bookings, payments and student management for surf, sailing, kite and dive schools in Spain. Built for the water. Book your demo.",
+    "ogAlt": "A water sports school running on Zazu"
+  },
+  "nav": {
+    "what": "What it does",
+    "disciplines": "Disciplines",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "cta": "Book a demo",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "hero": {
+    "titleA": "Stop running your school",
+    "titleHighlight": "on WhatsApp",
+    "titleB": ".",
+    "sub": "Zazu brings bookings, payments, students and camps into one place. Built for surf, sailing, kite and dive schools. Set up and ready before your season starts.",
+    "ctaPrimary": "Book a free demo",
+    "ctaSecondary": "See how it works",
+    "trust": ["Payments via Redsys", "Done-for-you onboarding", "No lock-in"],
+    "imageAlt": "A surfer crossing the dunes toward the waves at golden hour, board under one arm"
+  },
+  "problem": {
+    "title": "Summer shouldn't be chaos.",
+    "lead": "If any of this sounds familiar, you're not doing it wrong. You're just doing it by hand.",
+    "items": [
+      "Your phone melting down in July with WhatsApp bookings.",
+      "Deposits you don't collect in time and spots you lose.",
+      "A different spreadsheet per instructor, and nobody knows real occupancy.",
+      "Paperwork for minors: IDs, insurance and consents out of control."
+    ]
+  },
+  "value": {
+    "lead": "Not just another booking tool.",
+    "title": "Booking is only the beginning.",
+    "body": "Most tools help you take bookings and little else. Zazu runs your whole school end-to-end —payments, students, camps, gear and the day-to-day— in one system, not five disconnected apps, a spreadsheet and WhatsApp.",
+    "cycle": ["Discover", "Book", "Get paid", "Operate", "Retain"],
+    "cycleCaption": "Your school's full cycle, in one place."
+  },
+  "features": {
+    "title": "Everything that happens after the booking, handled.",
+    "featured": {
+      "title": "Your season, under control",
+      "body": "Operations calendar, attendance and assignable gear from your phone. Every instructor hits the beach knowing who they've got, when, and with what kit. Minors, guardians, medical data and consents always in order.",
+      "imageAlt": "Wetsuits and drysuits hanging in the wooden gear room of a sailing school, with a life ring in the background"
+    },
+    "items": [
+      { "title": "Never lose a booking", "body": "Online booking and payment 24/7, with automatic deposit. Clients book even while you're in the water." },
+      { "title": "Get paid, in order", "body": "Online and manual payments, deposits, outstanding balance and reconciliation. Export whenever." },
+      { "title": "Camps and courses, made easy", "body": "Groups by level and age, date ranges and bulk sign-ups without the mess." },
+      { "title": "Students and minors in order", "body": "Guardians, medical data, consents and documents (ID, insurance, licences) in one place." },
+      { "title": "Sell better every year", "body": "Reminders, satisfaction surveys and your school's data to decide with a clear head." }
+    ]
+  },
+  "disciplines": {
+    "title": "Made for what you do.",
+    "intro": "Zazu was born in the nautical world. Real flows for each discipline, not a generic tool bent to fit.",
+    "imageAlt": "A row of colourful surf and windsurf boards leaning against a wooden shack with palm trees",
+    "items": [
+      { "name": "Surf & surfcamps", "body": "Lessons, passes, courses and camps. Minors and tourists, without the overwhelm." },
+      { "name": "Sailing & camps", "body": "Courses by level and summer kids' camps with everything in order." },
+      { "name": "Kite & wing", "body": "Private lessons, wind reschedules and expensive gear made assignable." },
+      { "name": "Diving", "body": "Try-dives, certified courses and outings with medical paperwork up to date." }
+    ]
+  },
+  "how": {
+    "title": "Up and running before your season.",
+    "steps": [
+      { "title": "We set it up for you", "body": "We configure your services, calendar and card terminal, and import your students. You start using it, not building it." },
+      { "title": "Clients book and pay on their own", "body": "Online booking and deposit 24/7. You stop chasing anyone on WhatsApp." },
+      { "title": "You run the season in control", "body": "Groups, attendance, gear and payments, all on one screen. A calm summer." }
+    ]
+  },
+  "proof": {
+    "title": "From the spreadsheet to calm water.",
+    "imageAlt": "A person hugging their surfboard at the shoreline, warm sunset light",
+    "quotes": [
+      { "text": "We went from spreadsheets and WhatsApp to having it all in one place. Our first summer on Zazu we collected almost every deposit online and stopped losing spots.", "who": "Full Name", "role": "Surf school (sample)" },
+      { "text": "The kids' camp used to be a paperwork nightmare. Now every student has their documents, group and attendance. Priceless.", "who": "Full Name", "role": "Sailing club (sample)" }
+    ],
+    "note": "Sample testimonials — to be replaced with real cases before launch.",
+    "resultLine": "Fewer hours on the phone. Fewer lost spots. More time in the water."
+  },
+  "pricing": {
+    "title": "Simple, no surprises.",
+    "intro": "Indicative prices. Every plan includes online bookings, payments and support. Done-for-you onboarding available.",
+    "perMonth": "/mo",
+    "annualNote": "billed annually",
+    "plans": [
+      {
+        "name": "School",
+        "price": "€59",
+        "forWho": "Small school, one location, seasonal.",
+        "features": ["Online booking + payment (deposit or full)", "Calendar, sales and payments", "Students, minors and documents", "3 instructors included"],
+        "cta": "Get started"
+      },
+      {
+        "name": "Pro",
+        "price": "€119",
+        "forWho": "Established school with camps and a team.",
+        "features": ["Everything in School, plus:", "Camps and courses by level", "Attendance and assignable gear", "Reminders, NPS and dashboards", "10 instructors included"],
+        "cta": "Book a demo",
+        "featured": true,
+        "badge": "Most chosen"
+      },
+      {
+        "name": "Club",
+        "price": "From €249",
+        "forWho": "Clubs and groups with several sites or disciplines.",
+        "features": ["Everything in Pro, plus:", "Multi-site and multi-discipline", "WhatsApp / Telegram chat", "Unlimited users", "Dedicated manager"],
+        "cta": "Talk to sales"
+      }
+    ],
+    "footnote": "Low fee on online payments. Special pre-season terms."
+  },
+  "faq": {
+    "title": "What people usually ask us.",
+    "items": [
+      { "q": "I don't have time to learn another tool.", "a": "That's why onboarding is done-for-you: we set up services, calendar and card terminal, and import your students. You start using it, not building it." },
+      { "q": "I manage with WhatsApp and a spreadsheet, I get by.", "a": "You get by in the low season. In July you lose spots and hours. Add up what a lost spot and an hour of your time are worth: Zazu pays for itself." },
+      { "q": "Isn't it expensive for how seasonal I am?", "a": "The entry plan costs less than one or two spots a month, and helps you sell more and collect what slips away today. We also have pre-season terms." },
+      { "q": "I have no card terminal and don't know about online payments.", "a": "We walk you through setting up a Redsys terminal, or we use an alternative gateway. No headaches." },
+      { "q": "I already use another booking tool.", "a": "Great that you're digital. Zazu goes beyond booking: camps, minors, documents, gear and attendance. And we migrate you at no cost." },
+      { "q": "What if I want to leave?", "a": "Your data is yours and we export it. No forced lock-in beyond the annual term if you choose monthly billing." }
+    ]
+  },
+  "cta": {
+    "title": "Set up the best season of your life.",
+    "body": "We'll have it ready before it starts. Tell us about your school and we'll show you Zazu with your real case.",
+    "checklist": ["Demo with your real services and camp", "Done-for-you onboarding included", "We reply in under 24 h"],
+    "imageAlt": "A person hugging their surfboard at the shoreline, warm sunset light",
+    "form": {
+      "name": "Name",
+      "namePh": "Your name",
+      "email": "Email",
+      "emailPh": "you@school.com",
+      "phone": "Phone / WhatsApp",
+      "phonePh": "+34 ...",
+      "school": "School name",
+      "schoolPh": "School of ...",
+      "discipline": "Discipline",
+      "disciplineOptions": ["Surf", "Sailing", "Kite / Wing", "Diving", "SUP / Kayak", "Several"],
+      "students": "Students per season",
+      "studentsOptions": ["Under 100", "100 – 300", "300 – 600", "Over 600"],
+      "message": "Message (optional)",
+      "messagePh": "Tell us your biggest management headache",
+      "submit": "Book a free demo",
+      "success": "Thanks! We'll be in touch within 24 h.",
+      "privacy": "By submitting you accept our privacy policy. No spam, just your demo."
+    }
+  },
+  "footer": {
+    "tagline": "The operating system for your water sports school. Bookings, payments and students, in one place.",
+    "product": { "title": "Product", "links": ["What it does", "Pricing", "FAQ"] },
+    "legal": { "title": "Legal", "links": ["Privacy", "Terms", "Cookies"] },
+    "contact": { "title": "Contact", "email": "hello@zazu.com.es", "demo": "Book a demo" },
+    "rights": "© 2026 Zazu · Spain. Built for the water.",
+    "cookieSettings": "Cookie settings"
+  },
+  "lang": { "label": "Language", "es": "ES", "en": "EN" },
+  "consent": {
+    "title": "Cookies at Zazu",
+    "description": "We always use cookieless analytics, and analytics cookies (Google Analytics) only if you accept them. You can accept, reject or configure them.",
+    "policyLink": "Cookie policy",
+    "accept": "Accept",
+    "reject": "Reject",
+    "configure": "Configure",
+    "save": "Save preferences",
+    "necessary": { "name": "Essential", "desc": "Needed for the site to work. Always on." },
+    "analytics": { "name": "Analytics", "desc": "Google Analytics to measure site usage." },
+    "marketing": { "name": "Marketing", "desc": "For advertising and retargeting. Not used today." }
+  }
+}
